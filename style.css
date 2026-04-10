@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #141414;
+    color: #1f1f1f;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.social-link {
+  background-color: #333333;
+  color: white;
+  display: block;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.social-link:hover {
+  background-color: #c5f82a; /* Стає салатовим */
+  color: #141414; /* Текст стає майже чорним */
+}
+    
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    text-align: center;
+    display: block;
+    padding: 14px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.card {
+  background-color: #1f1f1f; /* Темно-сірий колір картки */
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
+}
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+card p:first-of-type {
+  color: #c5f82a; 
+  font-weight: 700;
+
+  margin-bottom: 20px;
+}
+
+.location {
+  color: #c5f82a;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.card p:last-of-type {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+.social-link:hover {
+  background-color: #c5f82a;
+  color: #141414; /* Темний текст на салатовому фоні */
+  cursor: pointer;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}
